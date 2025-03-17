@@ -19,6 +19,7 @@ This repository contains the frontend implementation for a Fintech application, 
 - **Context API**: State management for global app state
 - **Axios**: HTTP client for API communication
 - **React Router**: Navigation and routing
+- **React Testing Library**: Automated tests
 
 ## Getting Started
 
