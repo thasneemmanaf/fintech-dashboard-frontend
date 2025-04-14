@@ -8,7 +8,7 @@ const Support: React.FC = () => {
 
   return (
     <Button block onClick={handleSupportClick} className="support-button">
-      Contact Qred&apos;s support
+      Contact XYZ&apos;s support
       <style>{`
         .support-button {
           height: 44px;

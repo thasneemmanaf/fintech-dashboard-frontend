@@ -35,7 +35,7 @@ const Dashboard: React.FC = () => {
       </Content>
 
       <Footer className="text-center bg-white" style={{ padding: '12px 0' }}>
-        <div className="text-gray-500 text-sm">Qred Fintech App © {new Date().getFullYear()}</div>
+        <div className="text-gray-500 text-sm">XYZ Fintech App © {new Date().getFullYear()}</div>
       </Footer>
 
       <style>{`

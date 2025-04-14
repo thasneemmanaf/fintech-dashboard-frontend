@@ -38,12 +38,12 @@ const Header: React.FC = () => {
         <Col>
           <div className="logo-container cursor-pointer" onClick={handleLogoClick}>
             <img
-              src="/logo.png"
+              src="/logo1.png"
               alt="Company Logo"
               className="logo-image"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.onerror = null;
+                target.onerror = null; //This removes the error handler after it runs once to prevent an infinite loop of errors if the fallback image also fails.
                 target.src =
                   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNDAiIGZpbGw9IiNFNUU3RUIiLz48dGV4dCB4PSI1MCIgeT0iMjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzFBMjAyQyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjAuMzVlbSI+UXJlZDwvdGV4dD48L3N2Zz4=';
               }}

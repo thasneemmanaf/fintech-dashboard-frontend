@@ -7,7 +7,7 @@
         "esnext"
       ],
       "allowJs": true,
-      "skipLibCheck": true,
+      "skipLibCheck": true, // Skips type checking of declaration files (.d.ts), improving compilation speed.
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
       "strict": true,
