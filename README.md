@@ -1,6 +1,11 @@
 # Fintech Frontend
 
 This repository contains the frontend implementation for a Fintech application, a responsive React TypeScript application designed to help users manage their company cards, view transactions, and monitor spending.
+Please see the attached screenshot of the application below
+
+## 📷 Screenshot
+
+![Homepage](./public/screenshots/screenshot.png)
 
 ## Features
 

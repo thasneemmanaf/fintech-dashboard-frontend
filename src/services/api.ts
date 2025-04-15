@@ -3,7 +3,7 @@ import { ApiResponse } from '../types/global.types';
 
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL,
+  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
   },
